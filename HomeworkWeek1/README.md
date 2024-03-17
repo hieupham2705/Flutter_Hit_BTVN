@@ -1,16 +1,4 @@
-# fllutter
+	Homewwork Week1
+![image](https://github.com/hieupham2705/Flutter_Hit_BTVN/assets/116616463/999eee00-519a-48c8-b39e-2780a2936b09)
+![image](https://github.com/hieupham2705/Flutter_Hit_BTVN/assets/116616463/0ff4ea37-f18f-4204-9534-bcae8853bf8a)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
