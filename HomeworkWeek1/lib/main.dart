@@ -75,10 +75,7 @@ class MyHomePage extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Icon(
-                      Icons.calendar_month,
-                      size: 100,
-                    ),
+                    Image.asset('asset/calendar.png',width: 100,),
                     const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
