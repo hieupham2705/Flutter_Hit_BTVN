@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
+import 'GameBallScreen.dart';
 import 'dart:math';
 
 void main() {
@@ -160,10 +160,11 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             child: IconButton(
               onPressed: () {
                 setState(() {
-                  page = 1;
-                  question = generateQuestion();
-                  controller.reset();
-                  controller.forward();
+                  // page = 1;
+                  // question = generateQuestion();
+                  // controller.reset();
+                  // controller.forward();
+                  Navigator.push(context, MaterialPageRoute(builder: (builder) => const GameBallPage()));
                 });
               },
               icon: const Icon(Icons.play_arrow_rounded,

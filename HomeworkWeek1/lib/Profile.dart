@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Profile extends StatelessWidget {
+  const Profile({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -60,10 +58,13 @@ class MyHomePage extends StatelessWidget {
                     'https://cdn.tuoitre.vn/thumb_w/480/471584752817336320/2023/5/10/iu6-1683694373791472731774.png'),
               ),
               Positioned(
-                  bottom: 0,
-                  right: 0,
-                  child: Icon(
-                    Icons.camera_alt,
+                  bottom: -10,
+                  right: -10,
+                  child: ClipRRect(
+                    clipBehavior: Clip.none,
+                    child: Icon(
+                      Icons.camera_alt,
+                    ),
                   ))
             ],
           ),
